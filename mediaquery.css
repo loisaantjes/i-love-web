@@ -1,0 +1,12 @@
+body {
+    background-color: pink;
+    
+    @media (min-width: 500px) {
+        background-color: yellowgreen;
+    }
+
+    @media (min-width: 960px) {
+        display: grid;
+    }
+
+}

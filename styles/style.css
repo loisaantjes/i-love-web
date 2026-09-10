@@ -1,6 +1,9 @@
-*{bg-image: url(C:\Users\loisj\OneDrive\Documenten\GitHub\i-love-web\Achtergrond-roze-tegels.jpg);}
+body {
+    background-image: url(Achtergrond-roze-tegels.jpg);
+
+}
 
 table, th, td {
     border: solid black 2px;
-/}
+}
 

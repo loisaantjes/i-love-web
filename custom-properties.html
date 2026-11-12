@@ -1,0 +1,29 @@
+<button class="button">Knop</button>
+<button class="button button-ok">OK</button>
+<button class="button button-cancel">Annuleren</button>
+
+<style>
+
+.button {
+  --kleur: 200;
+  --lichtheid: 30%;
+  background: hsl(var(--kleur) 100% var(--lichtheid));
+  color: #fff;
+
+  &:hover, &:focus {
+    --lichtheid: 100%;
+  }
+
+  &:active {
+    --lichtheid: 50%;
+  }
+}
+
+.button-ok {
+  --kleur: 100;
+}
+.button-cancel {
+  --kleur: 20;
+}
+
+</style>

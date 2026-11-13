@@ -24,7 +24,9 @@ header {
 
 .logo img {
     height: 50px; 
+.dropdown:hover .submenu {
     display: block;
+    padding: 10px;
 }
 
 .submenu li a {

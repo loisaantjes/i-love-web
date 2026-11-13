@@ -45,6 +45,10 @@ nav ul {
     cursor: pointer;
 }
 
+.logo img {
+    display: flex;
+    height: 50px; 
+    display: block;
 a{
 text-decoration: none;
 }

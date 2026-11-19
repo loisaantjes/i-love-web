@@ -36,3 +36,6 @@ nav ul {
     display: flex;
     height: 50px; 
     display: block;
+.tekstje {
+    background-color: rgb(231, 154, 209);
+    width: 80%;

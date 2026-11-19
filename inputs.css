@@ -1,0 +1,6 @@
+.checkbox1 {
+    padding: 10px;
+    accent-color: blueviolet;
+    &+label {
+        color: blueviolet;
+        padding: 5px;

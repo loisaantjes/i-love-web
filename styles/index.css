@@ -29,3 +29,6 @@ nav ul {
     align-items: center;
     gap: 25px;
     list-style: none;
+.dropdown {
+    position: relative;
+    cursor: pointer;

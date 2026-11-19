@@ -1,12 +1,16 @@
 body {
     background-image: url(Achtergrond-roze-tegels.jpg);
+
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 25px;
     background-color: rgba(255, 182, 193,); opacity: 50px;
+}
+
 .submenu {
     display: none;
     position: absolute;
@@ -21,27 +25,40 @@ header {
     z-index: 100;
     text-align: right;
 }
+
 .dropdown:hover .submenu {
     display: block;
     padding: 10px;
+
+}
+
 .submenu li a {
 color: rgb(231, 154, 209);
 }
+
 nav ul {
     display: flex;
     align-items: center;
     gap: 25px;
     list-style: none;
+}
+
 .dropdown {
     position: relative;
     cursor: pointer;
+}
+
 .logo img {
     display: flex;
     height: 50px; 
     display: block;
+}
+
 a{
 text-decoration: none;
 }
+
 .tekstje {
     background-color: rgb(231, 154, 209);
     width: 80%;
+}

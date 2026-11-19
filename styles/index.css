@@ -21,4 +21,6 @@ header {
 .dropdown:hover .submenu {
     display: block;
     padding: 10px;
+.submenu li a {
+color: rgb(231, 154, 209);
 }

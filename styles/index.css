@@ -18,3 +18,7 @@ header {
     z-index: 100;
     text-align: right;
 }
+.dropdown:hover .submenu {
+    display: block;
+    padding: 10px;
+}
